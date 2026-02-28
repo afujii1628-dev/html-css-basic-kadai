@@ -69,12 +69,11 @@ a:hover {
 }
 @media screen and (max-width: 768px) {
   #parent {
-    display: block;
+    flex-direction: column;
   }
-}
-.contents h2 {
+  .contents h2 {
   font-size: 30px;
 }
-.contents p {
+  .contents p {
   font-size: 25px;
 }
